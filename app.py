@@ -3,7 +3,7 @@ import hashlib
 import base64
 import requests
 from flask import Flask, redirect, request, session, url_for
-from urllib.parse import urlencode
+from urllib.parse import urlencode, quote
 import secrets
 
 app = Flask(__name__)
