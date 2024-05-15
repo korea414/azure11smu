@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.11'
+        python-version: '3.11'  # Python 3.11을 사용하도록 설정
 
     - name: Install dependencies
       run: |
